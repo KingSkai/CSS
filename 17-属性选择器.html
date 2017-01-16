@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性选择器</title>
+    <style>
+        /*p[id]{*/
+            /*color: red;*/
+        /*}*/
+        /*p[class=cc]{*/
+            /*color: red;*/
+        /*}*/
+        img[alt^=abc]{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<!--
+1.属性选择器
+作用:根据指定的属性名称找到对应的标签,然后设置属性
+
+格式:
+[attribute]
+作用:
+[attribute=value]
+作用:找到有指定属性,并且属性的取值等于value的标签,然后设置属性
+
+******** 类型二 **********
+1.属性的取值以什么开头
+[attribute|=value] CSS2
+[attribute^=value] CSS3
+
+2.属性的取值是以什么结尾的
+[attribute$=value] CSS3
+
+3.属性的取值是否包含什么特定的值
+[attribute~=value] CSS2
+[attribute*=value] CSS3
+
+
+-->
+
+
+<img src="" alt="abdef">
+<img src="" alt="abdef-www">
+<img src="" alt="abdef pp">
+<img src="" alt="defabc">
+<img src="" alt="ppp abc">
+<img src="" alt="www-abc">
+<img src="" alt="qq">
+<img src="" alt="yy">
+
+<!--<p id="identity1" class="cc">我是段落1</p>-->
+<!--<p id="identity2">我是段落2</p>-->
+<!--<p class="cc">我是段落3</p>-->
+<!--<p id="identity3">我是段落4</p>-->
+
+</body>
+</html>

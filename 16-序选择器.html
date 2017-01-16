@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>序选择器</title>
+    <style>
+        /*
+        p:first-child{
+            color: red;
+        }
+        */
+
+        /*
+        p:first-of-type{
+            color: green;
+        }
+        */
+
+        /*
+        p:last-child{
+            color: red;
+        }
+        */
+
+        /*p:last-of-type{*/
+            /*color: green;*/
+        /*}*/
+
+        /*p:nth-child(3){*/
+            /*color: gainsboro;*/
+        /*}*/
+
+        p:nth-last-child(2n+0){
+            color: gainsboro;
+        }
+    </style>
+</head>
+<body>
+
+<!--
+CSS3中新增的选择器最具代表性的就是序选择器
+1.同级别的第几个
+:first-child 选中同级别的第一个标签
+注意点:不区分类型,
+
+:last-child 选中同级别中的最后一个标签
+:nth-child(3) 选中同级别中的第三个(可改()中的数字)
+:nth-child(xn+y) x和y是用户自定义的,而n是一个计数器从0递增
+
+
+:nth-last-child(2) 选中同级别中的倒数第2个标签
+:nth-last-child(odd)  选中同级别中的奇数的标签
+:nth-last-child(even)  选中同级别中的偶数的标签
+
+2.同类型的第几个
+:first-of-type 选中同级别中同类型的第一个标签
+
+:last-of-type 选中同级别中同类型的第一个标签
+
+
+-->
+
+<p>我是段落1</p>
+<p>我是段落2</p>
+<div>
+    <p>我是段落3</p>
+    <p>我是段落4</p>
+    <p>我是段落5</p>
+</div>
+
+
+</body>
+</html>
