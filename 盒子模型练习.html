@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒子模型练习</title>
+    <style>
+        .box1{
+            width: 500px;
+            height: 500px;
+            background-color: yellow;
+            box-sizing: border-box;
+            padding: 150px;
+        }
+        .box2{
+
+            width: 200px;
+            height: 200px;
+            background-color: cyan;
+
+        }
+    </style>
+</head>
+<body>
+<!--
+需求:
+有一个大盒子,元素的宽高是500px
+有一个小盒子,元素的宽高是200px
+要求将小盒子放到大盒子中,并且让小盒子在大盒子中垂直居中
+
+解析:
+方案一:设置大盒子的内边距
+方案二:设置小盒子的外边距
+-->
+
+<div class="box1">
+    <div class="box2"></div>
+</div>
+
+
+</body>
+</html>
