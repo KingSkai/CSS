@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style>
+
+        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+            margin: 0;
+            padding: 0
+        }
+
+        .box1{
+            background-color: red;
+        }
+
+        .box2{
+            background-color: green;
+        }
+
+        .box1 p{
+            width: 200px;
+            background-color: blue;
+        }
+
+        .box2 p{
+            width: 200px;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<!--
+1.清除浮动方式一
+给前面的父元素设置高度
+
+注意点:
+在企业开发中,我们能不写高度就不写高度,所以这种方法用的很少
+
+2.清除浮动的第二种方式
+给后面的盒子添加clear属性
+
+clear属性取值:
+none: 默认取值, 按照浮动元素的排序规则来排序(左浮动找左浮动,右浮动找右浮动)
+left:不要找前面的左浮动元素
+right:不要找前面的右浮动元素
+both:不要找前面的右浮动元素和左浮动元素
+
+注意点:
+当我们给某个元素添加clear属性的时候,margin属性就会失效
+-->
+
+<div class="box1">
+    <p>我是文字1</p>
+    <p>我是文字1</p>
+    <p>我是文字1</p>
+</div>
+<div class="box2">
+    <p>我是文字2</p>
+    <p>我是文字2</p>
+    <p>我是文字2</p>
+</div>
+
+</body>
+</html>
