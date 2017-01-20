@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过渡模块</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /*告诉系统那个属性需要执行过渡的效果*/
+            transition-property: width,background-color;
+            /*告诉系统过渡效果持续的时间*/
+            transition-duration: 5s, 5s;
+        }
+
+        /*伪类选择器出了可以用在a标签上还可以用在其他的任何选择器上*/
+        div:hover{
+            width: 300px;
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--
+1,过渡元素三要素
+1.1必须要有属性发生变化
+1.2必须告诉系统那个属性需要执行过渡效果
+1.3必须告诉系统过渡效果持续的时长
+
+2.注意点
+当多个属性要同时执行过渡效果时,属性要以","隔开
+transition-property: width,background-color;
+transition-duration: 5s, 5s;
+
+3.过渡连写
+transition: 过渡属性 过渡时长 运动速度 延迟时间
+
+-->
+
+<div>
+
+</div>
+</body>
+</html>

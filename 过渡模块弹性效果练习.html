@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>过渡模块弹性效果练习</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        div{
+            height: 100px;
+            background-color: red;
+            margin-top: 100px;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        div span{
+            font-size: 80px;
+            transition-property: margin;
+            transition-duration: 5s;
+        }
+
+        /*功能:只要悬停在div上 span就会*/
+        div:hover span{
+
+            margin:0 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <span>今</span>
+    <span>天</span>
+    <span>天</span>
+    <span>气</span>
+    <span>好</span>
+    <span>晴</span>
+    <span>朗</span>
+    <span>啊</span>
+</div>
+
+</body>
+</html>

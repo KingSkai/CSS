@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e6dd5d2-de1e-4234-ac15-a2f80f96cb26" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/40-定位流之相对定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/41-定位流之绝对定位.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/42-绝对定位-子绝父相.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/43-绝对定位-水平居中.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/定位练习1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/44-固定定位.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/45-a标签的伪类选择器.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/46-过渡模块.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/伪类选择器练习.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/定位练习2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/过渡动画手风琴效果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/过渡模块弹性效果练习.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/36-网页的布局方式.html" afterPath="$PROJECT_DIR$/36-网页的布局方式.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/网易注册界面.html" afterPath="$PROJECT_DIR$/网易注册界面.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/定位练习1.html" afterPath="$PROJECT_DIR$/定位练习1.html" />
     </list>
     <ignored path="CSS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,103 +33,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="36-网页的布局方式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/36-网页的布局方式.html">
+      <file leaf-file-name="44-固定定位.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/44-固定定位.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="540">
+              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="40-定位流之相对定位.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/40-定位流之相对定位.html">
+      <file leaf-file-name="45-a标签的伪类选择器.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/45-a标签的伪类选择器.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="304">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="41-定位流之绝对定位.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/41-定位流之绝对定位.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="42-绝对定位-子绝父相.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/42-绝对定位-子绝父相.html">
+      <file leaf-file-name="伪类选择器练习.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/伪类选择器练习.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="定位练习1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/定位练习1.html">
+      <file leaf-file-name="46-过渡模块.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/46-过渡模块.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="304">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="43-绝对定位-水平居中.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/43-绝对定位-水平居中.html">
+      <file leaf-file-name="过渡模块弹性效果练习.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/过渡模块弹性效果练习.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="38-浮动元素的排序规则.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/38-浮动元素的排序规则.html">
+      <file leaf-file-name="过渡动画手风琴效果.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/过渡动画手风琴效果.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="396">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="浮动练习.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/浮动练习.html">
+      <file leaf-file-name="eat.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eat.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="网易注册界面.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/网易注册界面.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="233" column="27" selection-start-line="233" selection-start-column="27" selection-end-line="233" selection-end-column="27" />
-              <folding />
-            </state>
+      <file leaf-file-name="meituan.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/meituan.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="27-背景定位属性.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/27-背景定位属性.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
+      <file leaf-file-name="tb.jpeg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tb.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -148,13 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/11-子元素选择器.html" />
-        <option value="$PROJECT_DIR$/后代选择器和子元素选择器.html" />
-        <option value="$PROJECT_DIR$/12-后代选择器和子元素选择器的区别.html" />
-        <option value="$PROJECT_DIR$/13-交集选择器.html" />
-        <option value="$PROJECT_DIR$/14-并集选择器.html" />
-        <option value="$PROJECT_DIR$/15-兄弟选择器.html" />
-        <option value="$PROJECT_DIR$/序选择器.html" />
         <option value="$PROJECT_DIR$/16-序选择器.html" />
         <option value="$PROJECT_DIR$/17-属性选择器.html" />
         <option value="$PROJECT_DIR$/选择器练习.html" />
@@ -199,6 +184,13 @@
         <option value="$PROJECT_DIR$/43-绝对定位-水平居中.html" />
         <option value="$PROJECT_DIR$/42-绝对定位-子绝父相.html" />
         <option value="$PROJECT_DIR$/定位练习1.html" />
+        <option value="$PROJECT_DIR$/定位练习2.html" />
+        <option value="$PROJECT_DIR$/44-固定定位.html" />
+        <option value="$PROJECT_DIR$/45-a标签的伪类选择器.html" />
+        <option value="$PROJECT_DIR$/伪类选择器练习.html" />
+        <option value="$PROJECT_DIR$/46-过渡模块.html" />
+        <option value="$PROJECT_DIR$/过渡模块弹性效果练习.html" />
+        <option value="$PROJECT_DIR$/过渡动画手风琴效果.html" />
       </list>
     </option>
   </component>
@@ -209,7 +201,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="798" />
+    <option name="x" value="552" />
     <option name="y" value="23" />
     <option name="width" value="1385" />
     <option name="height" value="973" />
@@ -368,15 +360,15 @@
       <workItem from="1484613799111" duration="14284000" />
       <workItem from="1484703504948" duration="16030000" />
       <workItem from="1484787547395" duration="14757000" />
-      <workItem from="1484874426669" duration="8146000" />
+      <workItem from="1484874426669" duration="15486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91920000" />
+    <option name="totallyTimeSpent" value="99260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="798" y="23" width="1385" height="973" extended-state="0" />
+    <frame x="552" y="23" width="1385" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11583578" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -416,71 +408,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/09-id和class的区别.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13-交集选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/15-兄弟选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16-序选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="40" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/17-属性选择器.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CSS3大特性练习.html" />
-    <entry file="file://$PROJECT_DIR$/22-权重.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23-div.html" />
-    <entry file="file://$PROJECT_DIR$/23-div和span.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/24-元素的显示模式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/25-CSS显示模式转换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baidulogo.jpg" />
     <entry file="file://$PROJECT_DIR$/../HTML_LEARN/24-字符实体.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -741,8 +668,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/定位练习1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="486">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/定位练习2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <folding>
+            <element signature="e#1418#1422#1" expanded="true" />
+            <element signature="e#1454#1458#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tb.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meituan.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eat.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/44-固定定位.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/45-a标签的伪类选择器.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/伪类选择器练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/46-过渡模块.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/过渡模块弹性效果练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/过渡动画手风琴效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
