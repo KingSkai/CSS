@@ -8,6 +8,7 @@
             margin: 0;
             padding: 0
         }
+
         .header{
             margin: 0 auto;
             width: 960px;
@@ -85,12 +86,14 @@
             padding-top: 50px;;
             padding-left: 80px;
             box-sizing: border-box;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+            border-top:none;
         }
 
         .content .bottom .article .artTop{
              width: 560px;
              height: 60px;
-             background-color: red;
 
          }
 
@@ -114,7 +117,6 @@
 
             width: 560px;
             height: 373px;
-            background-color: green;
         }
 
         .content .bottom .article .artBottom p{
@@ -122,11 +124,12 @@
             font-size: 12px;
             margin-left:80px;
             line-height: 28px;
+            color: #bcbcbf;
         }
 
         .content .bottom .article .artBottom .line .spcial{
 
-            width: 224px;
+            width: 325px;
 
         }
 
@@ -177,10 +180,28 @@
         }
 
         .content .bottom .article .artBottom .line .vcodeInput{
-            width: 100px;
-            height: 28px;
-            float: left;
+            /*width: 100px;*/
+            /*height: 28px;*/
             /*在企业开发中想让多个盒子的定不对齐,我们可以让他们浮动*/
+            float: left;
+            margin-right:10px;
+        }
+
+        .content .bottom .artBottom a{
+            text-decoration: none;
+            color: #003399;
+        }
+
+        .content .bottom .artBottom input[type=submit]{
+            width: 119px;
+            height: 39px;
+            background: url("glb_v2.png") no-repeat -144px -360px;
+            /*input默认是有边框的,所以要自己设置边框为none*/
+            border:none;
+            font-size: 16px;
+            color: white;
+            margin-left: 80px;;
+            margin-top: 20px;
         }
 
         /*右边*/
@@ -201,7 +222,17 @@
             margin: 0 auto;
             width: 960px;
             height: 48px;
-            background-color: yellow;
+        }
+
+        .footer p{
+            margin-top:20px;
+            font-size: 12px;
+            color: #cccccc;
+            text-align: center;
+        }
+        .footer p a{
+            color: #a8a8a8;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -252,7 +283,7 @@
                     </div>
                 </div>
 
-                <p>6~18个字符，可使用字母、数字、下划线，需以字母开头</p>
+                <p class="describe">6~18个字符，可使用字母、数字、下划线，需以字母开头</p>
 
                 <!--密码-->
                 <div class="line">
@@ -271,7 +302,7 @@
                         <input type="password"  class="spcial">
                     </div>
                 </div>
-                <p>请再次填写密码</p>
+                <p class="describe">请再次填写密码</p>
 
                 <!--手机号码-->
                 <div class="line">
@@ -280,7 +311,7 @@
                         <input type="text"  class="spcial">
                     </div>
                 </div>
-                <p>忘记密码时，可以通过该手机号码快速找回密码</p>
+                <p class="describe">忘记密码时，可以通过该手机号码快速找回密码</p>
 
                 <!--验证码-->
                 <div class="line">
@@ -291,8 +322,14 @@
                     </div>
                 </div>
 
-                <p>请填写图片中的字符，不区分大小写</p>
+                <p class="describe">请填写图片中的字符，不区分大小写</p>
+                <p>
+                    <input type="checkbox" checked>
+                    同意<a href="#">"服务条款"</a>和<a href="#">"用户须知"、"隐私权相关政策"</a>
+                </p>
 
+                <input type="submit" value="立即注册">
+                
             </div>
         </div>
         <!--右边区域-->
@@ -304,6 +341,7 @@
 
 <div class="footer">
 
+    <p><a href="#">关于网易</a><a href="#">关于网易免费邮</a><a href="#">邮箱官方博客</a><a href="#">客户服务</a><a href="#">隐私政策</a>|  网易公司版权所有 © 1997-2017 </p>
 </div>
 
 </body>
