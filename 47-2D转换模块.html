@@ -43,6 +43,13 @@
             /*第二个参数:垂直方向缩放倍数*/
             transform: scale(1.5,1);
         }
+
+        ul li:nth-child(5){
+            组合动画;
+            1.注意点:如果需要进行多个转换,那么用空格隔开
+            2.2D转换的模块会修改元素的坐标系,所以旋转之后再平移就不是水平平移了
+            transform: rotate(45deg) translate(100px, 0px);
+        }
     </style>
 </head>
 <body>

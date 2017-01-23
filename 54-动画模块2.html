@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画模块2</title>
+    <style>
+        *{
+            padding: 0;
+            width: 0;
+        }
+        div{
+            width: 100px;
+            height: 50px;
+            background-color: red;
+            /*后面动画轨迹需要使用到绝对定位*/
+            position: absolute;
+            animation-name: sport;
+            animation-duration: 5s;
+            /*
+            通过观察,动画是有一定状态的
+            1.等待状态
+            2.执行状态
+            3.结束状态
+            animation-fill-mode:
+            取值:
+            none      无改变
+            forwords  让元素结束状态保持动画最后一帧的样式
+            backwords 登台状态时限时动画第一帧的样式
+            both      forwords+backwords
+            */
+        }
+
+        @keyframes sport {
+            /*第二种写法*/
+            0%{
+                left: 0;
+                top: 0;
+            }
+            25%{
+                left: 300px;
+                top: 0;
+            }
+            50%{
+                left: 300px;
+                top: 300px;
+            }
+            75%{
+
+                left: 0;
+                top: 300px;
+            }
+            100%{
+
+                left: 0;
+                top: 0;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+<div>
+
+</div>
+
+</body>
+</html>
